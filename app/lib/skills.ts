@@ -32,8 +32,8 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Python",      logo: "App Logos/Python.png" },
       { name: "JavaScript",  logo: "App Logos/JS.png" },
-      { name: "C/C++",       logo: "App Logos/C_C++.png" },
-      { name: "C#",          logo: "App Logos/Csharp.png" },
+      { name: "C/C++",       logo: "App Logos/C++.png" },
+      { name: "C#",          logo: "App Logos/CSharp.png" },
       { name: "Solidity",    logo: "App Logos/Solidity.png" },
       { name: "MySQL",    logo: "App Logos/MySQL.png" },
     ],

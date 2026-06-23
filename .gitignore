@@ -36,6 +36,14 @@ yarn-error.log*
 # vercel
 .vercel
 
+# large videos that exceed GitHub's 100 MB hard limit
+# host these via YouTube/Cloudinary and reference by URL in projects.ts
+public/Project Videos/BlockChain Project.mp4
+public/Project Videos/BlockChain Project Part 2.mp4
+public/Project Videos/BlockChain Project Part 3.mp4
+public/Project Videos/Finance Tracker Figma Project.mp4
+public/Project Videos/Finance Tracker Notion.mp4
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

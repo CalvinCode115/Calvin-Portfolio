@@ -208,9 +208,9 @@ export default function Home() {
                 <CoverSlot src={a.cover} alt={a.title} hint={a.cover} />
                 <div className="p-5 flex flex-col gap-3">
                   <h3 className="text-base font-semibold text-white">{a.title}</h3>
-                  <p className="text-zinc-400 text-sm">{a.subtitle}</p>
+                  <p className="text-zinc-400 text-sm">{a.blurb}</p>
                   <div className="flex flex-wrap gap-1.5">
-                    {a.tags.map((t) => <Tag key={t} label={t} />)}
+                    {(a.tags ?? []).map((t) => <Tag key={t} label={t} />)}
                   </div>
                 </div>
               </div>
